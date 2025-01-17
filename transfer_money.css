@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(100, 200, 200);
+    border-radius: 0px;
+    height: 60px;
+    width: 100%;
+}
+.navbar li{
+    float: left;
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+.navbar #item{
+    float: right;
+    margin-right: 70px;
+}
+.navbar li a{
+    font-size: 140%;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.navbar #home a{
+    color: white;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    color: white;
+}
+#bold{
+    font-size: xx-large;
+    margin: 10px;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+}
+
+h1{
+    margin: 2px 0px;
+}
+h2{
+    margin: 15px 0px;
+    color: rgb(100, 200, 200);
+}
+
+#labelname{
+    height: 20px;
+    width: 300px;
+}
+
+.transfer{
+    margin: 20px;
+    font-size: larger;
+}
+h1 {
+    text-align: center;
+    color: rgb(100,200,200);
+}
+.transferform{
+    padding-left: 25px;
+    font-size: x-large;
+}
+
+#proceed{
+    background-color: rgb(100, 200, 200);
+    font-size: medium;
+    height: 30px;
+    width: 110px;
+    margin-top: 10px;
+}
